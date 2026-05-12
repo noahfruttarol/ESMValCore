@@ -1,6 +1,6 @@
 {
     "Header": {
-        "generic_levels": "olevel",
+        "generic_levels": "olevel", 
         "table_id": "Table custom"
     },
     "variable_entry": {
@@ -183,6 +183,19 @@
             "out_name": "MP_SS_tot",
             "standard_name": "",
             "units": "kg"
+        },
+        "ae": {
+            "cell_measures": "area: areacella",
+            "cell_methods": "time: mean",
+            "comment": "",
+            "dimensions": "longitude latitude time",
+            "frequency": "mon",
+            "long_name": "angstrom exponent",
+            "modeling_realm": "atmos",
+            "out_name": "ae",
+            "standard_name": "",
+            "type": "real",
+            "units": "1"
         },
         "agb": {
             "cell_measures": "area: areacella",
@@ -567,6 +580,7 @@
             "cell_measures": "area: areacella",
             "cell_methods": "time: mean",
             "dimensions": "longitude latitude time",
+            "frequency": "mon",
             "long_name": "Condensed Ice Path Error",
             "modeling_realm": "atmos",
             "ok_max_mean_abs": "1.0",
@@ -643,6 +657,7 @@
             "cell_measures": "area: areacella",
             "cell_methods": "time: mean",
             "dimensions": "longitude latitude time",
+            "frequency": "mon",
             "long_name": "Liquid Water Path Error",
             "modeling_realm": "atmos",
             "ok_max_mean_abs": "1.0",
